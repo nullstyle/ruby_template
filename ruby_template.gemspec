@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = RubyTemplate::VERSION
   gem.authors       = ["Scott Fleckenstein"]
   gem.email         = ["nullstyle@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{RubyTemplate gives you a simple means of producing json in your views by letting you write normal ruby. }
+  gem.summary       = %q{Produce JSON views using pure-ruby}
+  gem.homepage      = "https://github.com/nullstyle/ruby_template"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
